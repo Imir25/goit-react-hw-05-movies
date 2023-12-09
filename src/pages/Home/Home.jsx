@@ -4,7 +4,6 @@ import MovieList from 'components/MovieList/MovieList';
 import { Loader } from 'components/Loader/Loader';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import c from './Home.module.css';
 
 const Home = () => {
   const [movies, setMovies] = useState([]);
